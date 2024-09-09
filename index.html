@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-02-MONIKA-LANDING PAGE USING TAILWIND-CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">    
+</head>
+<body>
+ <nav class="bg-white">
+    <div class="container flex mx-auto items-center justify-between">
+        <img class="w-40" src="./PUBLIC/NAV/Askmeidentity 2.svg" alt="LOGO">
+
+        <ul class="hidden sm:flex font-bold gap-10 pl-24">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="hidden sm:flex gap-4 ">
+            <li><img class="w-5 relative" src="./PUBLIC/NAV/Icon.svg" alt="cart"><img class="hidden xl:flex xl:absolute xl:size-4 xl:top-8 xl:right-[29.5rem]" src="./PUBLIC/NAV/span.widget_cart_counter_number.svg" alt=""></li>
+            <li><img class="w-5" src="./PUBLIC/NAV/Icon (1).svg" alt="profile"></li>
+            <li><img class="w-5" src="./PUBLIC/NAV/Icon (2).svg" alt="search"></li>
+        </ul>
+        <div class="hidden sm:flex items-center gap-6">
+            <a class="underline-offset-4 underline decoration-1" href="#">Login</a>
+            <a class=" bg-gradient-to-r from-indigo-700 to-fuchsia-800 px-7 py-4 text-white rounded-md " href="#">Signup</a>
+        </div>
+        <div class="sm:hidden group relative">
+            <button type="button" class="">
+                <img src="./PUBLIC/NAV/hamburger-menu-svgrepo-com.svg" alt="">
+            </button>
+        <ul class="hidden group-hover:flex flex-col space-y-1 absolute right-1 ">
+            <li class="border border-gray-500 rounded-sm px-2 hover:shadow-md"><a  href="#">Home</a></li>
+            <li class="border border-gray-500 rounded-sm px-2 hover:shadow-md"><a href="#">About</a></li>
+            <li class="border border-gray-500 rounded-sm px-2 hover:shadow-md"><a href="#">Courses</a></li>
+            <li class="border border-gray-500 rounded-sm px-2 hover:shadow-md"><a href="#">Contact</a></li>
+        </ul>
+        </div>
+        <div class="sm:hidden group relative">
+            <button type="button" class="">
+                <img src="./PUBLIC/NAV/hamburger-menu-svgrepo-com.svg" alt="">
+            </button>
+        <ul class="hidden group-hover:flex flex-col space-y-1 absolute right-1 ">
+            <li class="border border-gray-500 rounded-sm p-2 hover:shadow-md"><img src="./PUBLIC/NAV/Icon.svg" alt="cart"></li>
+            <li class="border border-gray-500 rounded-sm p-2 hover:shadow-md"><img src="./PUBLIC/NAV/Icon (1).svg" alt="profile"></li>
+            <li class="border border-gray-500 rounded-sm p-2 hover:shadow-md"><img src="./PUBLIC/NAV/Icon (2).svg" alt="search"></li>
+        </ul>            
+        </div>
+        <div class="sm:hidden group relative">
+            <button type="button" class="">
+                <img src="./PUBLIC/NAV/hamburger-menu-svgrepo-com.svg" alt="">
+            </button>
+        <div class="hidden group-hover:flex flex-col space-y-1 absolute right-1 items-center">
+            <a class="underline-offset-4 underline border border-gray-500 rounded-sm p-2 hover:shadow-md " href="#">Login</a>
+            <a class=" bg-gradient-to-r from-indigo-700 to-fuchsia-800 text-white border border-gray-500 rounded-sm p-2 hover:shadow-md" href="#">Signup</a>
+        </div>           
+        </div>
+    </div>
+ </nav>    
+<div class="container-1 relative w-full bg-gradient-to-r from-indigo-700 to-fuchsia-800 py-5 sm:hidden">
+    <div id="part-1" class="w-full mx-auto flex flex-col items-center space-y-6 py-10 ">
+        <p class="text-white righteous-regular text-lg pt-4">SUCCESSFUL COACHES ARE VISIONARIES</p>
+        <p class="text-white righteous-regular text-lg text-center ">Good <span class="text-[#0E38CD]">coaching</span> is good teaching & nothing else.</p>
+        <div class="flex">
+            <button class="text-white righteous-regular border px-4 py-2 rounded-md text-sm" type="button">View Courses</button>
+            <button class="text-white righteous-regular hover:border px-4 py-2 rounded-md text-sm" type="button">Get Free Consultation</button>
+        </div>
+        <div class="flex rounded-lg items-center bg-white py-2 justify-around righteous-regular w-fit px-2 gap-2">
+           <p class="text-xs text-[#4F547B]">What do you want to learn today?</p>
+           <button class="flex items-center gap-1 text-xs text-white rounded-lg bg-gradient-to-br from-[#3023B2] to-[#7F56D9] px-3 py-3"><img src="./PUBLIC/container-1/Vector (2).svg" alt="">Search</button>
+        </div>        
+    </div>
+    <div id="part-2" class="w-full flex justify-center relative">
+        <div class="size-48 top-16 bg-white absolute rounded-full blur-2xl"></div>
+        <img class="opacity-100 mix-blend-multiply h-64" src="./PUBLIC/container-1/brunette-woman-hugging-laptop 1 (1).svg" alt="">
+    </div>
+</div>
+
+<!-- design for sm and above -->
+
+<div class="hidden sm:flex flex-row w-full justify-center bg-gradient-to-r from-[#4A16BD] to-[#04016C] items-center relative xl xl:py-2 xl:h-[43rem]">
+  <div id="part-1-1" class="sm:ml-6 sm:space-y-5 lg:ml-24 xl:ml-32 xl:space-y-8">
+        <p class="text-white righteous-regular text-xs xl:tracking-widest">SUCCESSFUL COACHES ARE VISIONARIES</p>
+        <p class="text-white righteous-regular text-4xl pr-[8rem] lg:pr-[10rem] xl:text-6xl xl:pr-[19rem]">Good <span class="text-[#0E38CD]">coaching</span> is good teaching & nothing else.</p>
+        <div class="flex xl:py-5">
+            <button class="text-white righteous-regular border px-4 py-2 rounded-md text-sm" type="button">View Courses</button>
+            <button class="text-white righteous-regular hover:border px-4 py-2 rounded-md text-sm" type="button">Get Free Consultation</button>
+        </div>
+        <div class="flex rounded-lg items-center bg-white py-2 justify-around righteous-regular w-fit px-2 gap-2 xl:px-2 xl:gap-11">
+           <p class="text-xs text-[#4F547B]">What do you want to learn today?</p>
+           <button class="flex items-center gap-1 text-xs text-white rounded-lg bg-gradient-to-br from-[#3023B2] to-[#7F56D9] px-3 py-3 xl:px-6 xl:gap-4"><img src="./PUBLIC/container-1/Vector (2).svg" alt="">Search</button>
+        </div>    
+  </div>
+  <div id="part-2-2" class="relative sm:mr-6 lg:mr-24 xl:mr-32">
+        <div class="size-80 top-24 bg-white absolute rounded-full blur-3xl lg:size-[24rem] lg:top-[9rem] xl:size-[32rem] xl:top-[30rem] xl:blur-[100px]"></div>
+        <img class="opacity-100 mix-blend-multiply xl:h-[80rem]" src="./PUBLIC/container-1/brunette-woman-hugging-laptop 1 (1).svg" alt="">
+  </div>
+  <div class="absolute flex left-[22rem] top-32 lg:left-[26rem] xl:left-[44rem] xl:top-20">
+        <div>
+         <img class="size-28" src="./PUBLIC/container-1/Group 1000014970.svg" alt="">   
+        </div>
+        <div class="space-y-2">
+            <p class="rowdies-regular text-white text-xs">Shyam</p>
+            <p class="righteous-regular text-white text-xs pr-40 lg:pr-[23rem] xl:pr-[31rem]">In a coaching role, you ask the questions and rely more on your 
+             staff, who become the experts, to provide the information.</p>
+            <p class="text-[#0094E7] text-xs">4.9</p>
+        </div>
+    </div>
+
+    <img class="absolute w-[7.5rem] bottom-0 left-[23rem] lg:w-[9.5rem] lg:left-[27rem] xl:w-[13rem] xl:left-[36rem]" src="./PUBLIC/container-1/Rectangle 8674.svg" alt="vector">
+    <img class="absolute w-[6.5rem] bottom-0 left-[23.5rem] lg:w-[8rem] lg:left-[27.7rem] xl:w-[11rem] xl:left-[37rem]" src="./PUBLIC/container-1/Rectangle 8675.svg" alt="vector">
+    <img class="absolute w-[5.5rem] bottom-0 left-[24rem] lg:w-[6.5rem] lg:left-[28.5rem] xl:w-[9rem] xl:left-[38rem]" src="./PUBLIC/container-1/Rectangle 8673.svg" alt="vector">            
+
+</div>
+  <div class="container-2 mx-auto p-4 bg-gradient-to-b from-[#2E08C7] from-0% via-[#7E08C7] via-50% to-transparent to-95%">    
+        <div class="grid grid-cols-2 gap-10 sm:grid-cols-3 sm:gap-10 lg:grid-cols-6 lg:px-32 items-center justify-items-center">
+        <img src="./PUBLIC/container-2/Link ⏵ brand6.png.svg" alt="">
+        <img src="./PUBLIC/container-2/Link ⏵ brand1.png.svg" alt="">
+        <img src="./PUBLIC/container-2/Link ⏵ brand6.png (1).svg" alt="">
+        <img src="./PUBLIC/container-2/Link ⏵ brand3.png.svg" alt="">
+        <img src="./PUBLIC/container-2/Link ⏵ brand5.png.svg" alt="">
+        <img src="./PUBLIC/container-2/Link ⏵ brand1.png (1).svg" alt="">            
+        </div>
+ </div> 
+ <div class="container-3 mx-auto  bg-gradient-to-t from-[#D9ECFF] via-[#F0F3FF] to-white">
+   <div class="main-div flex flex-col justify-around items-center px-10 lg:px-24 lg:relative"> 
+    <div id="part-1" class="text-center lg:pt-14 lg:pb-20">
+        <h1 class="rowdies-regular pt-12 lg:text-4xl text-[#323232]">Featured <span class="text-[#4883FF]">Course</span></h1>
+        <p class="righteous-regular text-[#323232] uppercase pt-3 pb-12 text-xs lg:text-xl lg:tracking-widest">The feature courses are we invented our teaching part</p>
+    </div>
+    <div class="hidden lg:flex lg:absolute lg:top-24 lg:left-44">
+        <img class="size-20" src="./PUBLIC/container-3/Ellipse 118.svg" alt="">
+    </div>
+    <div id="part-2" class=" grid grid-cols-1 items-center gap-y-7 sm:grid-cols-2 gap-x-2 lg:grid-cols-3 lg:gap-10">
+        <div class="card bg-white rounded-2xl">
+            <img src="./PUBLIC/container-3/Mask group.svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>
+        <div class="card  bg-white rounded-2xl ">
+            <img src="./PUBLIC/container-3/Mask group (1).svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>
+        <div class="card  bg-white rounded-2xl ">
+            <img src="./PUBLIC/container-3/Mask group (2).svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>
+        <div class="card bg-white rounded-2xl">
+            <img src="./PUBLIC/container-3/Mask group (3).svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>
+        <div class="card bg-white rounded-2xl">
+            <img src="./PUBLIC/container-3/Mask group (4).svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>
+        <div class="card bg-white rounded-2xl">
+            <img src="./PUBLIC/container-3/Mask group (5).svg" alt="graphics-image">
+            <div class="text-[#4E596B] saira-medium flex justify-between text-xs pt-6 px-4">1,957 students <span>01h 59m</span></div>
+            <div class="text-[#324361] saira-semibold pt-6 px-4">Motion Graphics: Create a Nice Typography Animation</div>
+            <div class="flex saira-semibold text-[#4E596B] justify-between pt-6 px-4 pb-6">Rs.499 <span><img class="" src="./PUBLIC/container-3/9054263_bx_cart_alt_icon 1.svg" alt=""></span></div>
+        </div>                                        
+    </div>
+    <div id="part-3" class="py-6 sm:py-10 lg:py-16">
+        <button class="text-white righteous-regular rounded-md  bg-gradient-to-r from-[#083F9B] to-[#7F56D9] px-5 py-3 text-sm">Explore courses</button>
+    </div>
+   </div>
+  </div>
+  
+  <div class="container-4 mx-auto bg-gradient-to-l from-[#4F18CA] from-10% to-[#739FE8] to-90%  lg:relative">
+   <div class="main-div flex flex-col justify-around items-center py-5 gap-10"> 
+     <div id="part-3" class="text-center gap-2 flex flex-col sm:pb-10 lg:text-left lg:px-52 lg:justify-start xl:justify-items-start xl:px-[30rem]">
+        <p class="righteous-regular text-white pt-12 lg:text-4xl lg:pl-12 xl:pl-0">Why <span class="text-[#0E38CD]">learn</span> with our courses?</p>
+        <p class="saira-regular text-white text-xs text-center pt-3 lg:text-xl">We are providing the best courses and top classes.And extradinery placement training.....</p>
+     </div>
+     <div class="hidden lg:flex lg:left-0">
+        <div class="lg:absolute bg-[#3E96EE] w-36 h-72 rounded-r-full rounded-tr-full top-32 left-0 blur-3xl"></div>
+        <img class="w-[9rem] lg:absolute top-28 left-0" src="./PUBLIC/container-4/Rectangle 8680.svg" alt="">
+        <img class="w-[10rem] lg:absolute top-24 left-0" src="./PUBLIC/container-4/Rectangle 8682.svg" alt="">
+        <img class="w-[11rem] lg:absolute top-20 left-0" src="./PUBLIC/container-4/Rectangle 8681.svg" alt="">
+        
+     </div>
+     <div id="part-4" class="grid grid-cols-1 items-center gap-y-12 pb-7 sm:grid-cols-3 sm:w-[47rem] lg:w-[66rem]" >
+        <div class="card-1 flex flex-col items-center justify-center py-12">
+            <img class="size-9 lg:size-16" src="./PUBLIC/container-4/Icon.svg" alt="icon">
+            <p class="text-white righteous-regular text-sm py-4">01. Learn</p>
+            <div class="text-white righteous-regular text-xs text-center px-28 sm:px-6 lg:px-20">Learn continually. There is always “one more thing”to learn.</div>
+        </div>
+        <div class="card-1 flex flex-col items-center justify-center  sm:border-l-4 border-r-4 border-dotted">
+            <img class="size-9 lg:size-16" src="./PUBLIC/container-4/Icon (1).svg" alt="icon">
+            <p class="text-white righteous-regular text-sm py-4">02. Graduate</p>
+            <div class="text-white righteous-regular text-xs text-center px-28 sm:px-14 lg:px-[6.5rem]">Be bold,be courageous,  be your best.</div>
+        </div>        
+        <div class="card-1 flex flex-col items-center justify-center py-12">
+            <img class="size-9 lg:size-16" src="./PUBLIC/container-4/Icon (2).svg" alt="icon">
+            <p class="text-white righteous-regular text-sm py-4">03. Work</p>
+            <div class="text-white righteous-regular text-xs text-center px-28 sm:px-11 lg:px-[5.5rem]">Great companies are built in the office,with hard work put in by team.</div>
+        </div>
+     </div>
+   </div> 
+  </div>
+
+  <div class="container-5 mx-auto bg-gradient-to-t from-[#D9ECFF] to-transparent lg:py-14">
+   <div class="main-div flex flex-col justify-around items-center py-16 space-y-7"> 
+     <div id="part-5" class="text-center space-y-1">
+        <h1 class="righteous-regular text-black sm:text-2xl lg:text-4xl">Top<span class="text-[#0E38CD]"> Categories</span></h1>
+        <p class="righteous-regular text-sm text-[#4E596B] pb-16 lg:text-xl">100+ unique online course list designs</p>
+     </div>
+     <div id="part-6" class="grid grid-cols-2 items-center gap-y-7 gap-x-2 sm:grid-cols-3 lg:grid-cols-6 lg:px-16 lg:gap-x-5 lg:justify-items-center" >
+        <div class="card-2 flex flex-col items-center justify-center bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image.svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">Digtal Marketing</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">25 Courses</div>
+        </div>
+        <div class="card-2 flex flex-col items-center justify-center  bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image (1).svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">Web Development</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">16 Courses</div>
+        </div>
+        <div class="card-2 flex flex-col items-center justify-center  bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image (2).svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">Art & Humanities</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">76 Courses</div>
+        </div>
+        <div class="card-2 flex flex-col items-center justify-center  bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image (3).svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">Personal Development</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">22 Courses</div>
+        </div>
+        <div class="card-2 flex flex-col items-center justify-center  bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image (4).svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">IT and Software</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">110 Courses</div>
+        </div>
+        <div class="card-2 flex flex-col items-center justify-center  bg-white rounded-lg w-44 h-fit gap-y-10 py-8 lg:w-36 xl:w-48">
+            <img class="size-12 lg:size-16" src="./PUBLIC/container-5/div.features-box-image (5).svg" alt="icon">
+            <p class="text-[#324361] righteous-regular text-sm px-20 text-center">Graphic Design</p>
+            <div class="text-[#4F547B] righteous-regular text-xs text-center">85 Courses</div>
+        </div>                                
+     </div>
+   </div> 
+  </div>
+
+<div class="container-6 mx-auto flex flex-col items-center  bg-gradient-to-t from-[#D9ECFF] to-white to-40%  gap-y-32 py-12 sm:py-10 lg:relative xl:gap-y-56 xl:py-1">
+    <div class="hidden lg:flex">   
+        <img class="size-20 lg:absolute top-[38rem] left-[55rem] xl:size-16 xl:left-[76rem]" src="./PUBLIC/container-6/Polygon 7.svg" alt="Vector">
+        <img class="size-20 lg:absolute top-[32rem] right-[54rem] xl:size-16 xl:right-[73rem] xl:top-[33rem]" src="./PUBLIC/container-6/Polygon 8.svg" alt="Vector">
+        <img class="size-20 lg:absolute top-[11.5rem] right-[32.5rem] xl:right-[47rem] xl:top-[15rem] xl:size-16" src="./PUBLIC/container-6/Polygon 9.svg" alt="Vector">
+    </div> 
+    <div class="content flex items-center flex-col bg-gradient-to-bl from-[#E441FF] via-[#1901F890] to-[#00B3FF40] rounded-2xl w-96  h-fit gap-y-7 py-10 sm:w-3/4 lg:py-20 lg:relative xl:w-[66%] xl:py-14">
+        <p class="righteous-regular text-white px-18 text-center sm:text-2xl sm:px-28 lg:text-4xl lg:px-32 xl:px-64">Subscribe For Get Update Every New Courses</p>
+        <p class="righteous-regular text-[#ffffff70] text-center text-xs">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+        <div class="flex flex-row">
+            <p class="righteous-regular text-white bg-[#ffffff30] text-xs py-3 pr-14 pl-5 rounded-l-xl lg:pr-28 xl:pr-40">enter your email</p>
+            <p class="righteous-regular text-white bg-[#0E38CD] text-xs py-3 px-4 rounded-r-xl lg:px-6" >Subscribe</p>
+        </div>
+    <div class="hidden lg:flex">
+        <img class="size-12 lg:absolute top-[15rem] left-[3rem] xl:top-[14.5rem] xl:left-[4rem]" src="./PUBLIC/container-6/Ellipse 166.svg" alt="people img">
+        <img class="size-12 lg:absolute top-[9rem] left-[5rem] xl:left-[8rem]" src="./PUBLIC/container-6/Ellipse 167.svg" alt="people img">
+        <img class="size-12 lg:absolute top-[3rem] left-[1.5rem] xl:top-[3.5rem] xl:left-[2rem]" src="./PUBLIC/container-6/Ellipse 168.svg" alt="people img">
+        <img class="size-12 lg:absolute top-[3rem] right-[1.5rem] xl:top-[3.5rem] xl:right-[2rem]" src="./PUBLIC/container-6/Ellipse 166 (1).svg" alt="people img">
+        <img class="size-12 lg:absolute top-[9rem] right-[5rem] xl:right-[8rem]" src="./PUBLIC/container-6/Ellipse 167 (1).svg" alt="people img">
+        <img class="size-12 lg:absolute top-[15rem] right-[3rem] xl:top-[14.5rem] xl:right-[4rem]" src="./PUBLIC/container-6/Ellipse 168 (1).svg" alt="people img">
+    </div>                
+    </div> 
+   
+    <div class="content-1 relative px-6 flex justify-center">
+        <img class="relative sm:size-3/4" src="./PUBLIC/container-6/Rectangle 8691.svg" alt="video img">
+        <img class="absolute top-20 left-44 size-24 sm:left-[22rem] sm:top-28 lg:left-[31rem] lg:top-40 xl:left-[38rem] xl:top-48" src="./PUBLIC/container-6/Group 512857.svg" alt="play button">
+        <img class="hidden lg:flex absolute right-12 top-64 size-56 xl:top-[22rem] xl:right-20" src="./PUBLIC/container-6/banner_right.png.svg" alt="">
+    </div> 
+    <div class="content-2 flex flex-col justify-around items-center lg:relative">
+     <img class="hidden lg:size-20 lg:absolute lg:flex lg:top-1 lg:right-[45rem]" src="./PUBLIC/container-6/Ellipse 1217.svg" alt="">    
+     <div id="part-7" class="text-center space-y-6">
+        <h1 class="righteous-regular text-3xl text-[#0E38CD]">Testimonials</h1>
+        <p class="righteous-regular text-[#4E596B] lg:text-lg">What our student say about us</p>
+     </div>
+     <div id="part-8" class="flex flex-col flex-wrap items-center px-5 pt-14 gap-y-16" >
+        <div class="card-3 relative flex flex-col items-start justify-center bg-white px-5 pt-12 pb-3 shadow-slate-400 shadow-md  sm:w-[22rem] sm:h-32 sm:right-[17rem] sm:top-28 xl:right-[20rem]">
+            <div class="text-[#7E7EAA] righteous-regular text-xs text-left">Such an amazing traniner and easily understand the entire 
+             syllabus, and the guidence will be super and good to the way of explaning.</div>
+            <img class="" src="./PUBLIC/container-6/Group 512877.svg" alt="icon">
+            <img class="absolute bottom-24 left-40 sm:left-36" src="./PUBLIC/container-6/th (1) 6.svg" alt="women-img">
+        </div>
+        <div class="card-3 relative flex flex-col items-start justify-center bg-white px-5 pt-12 pb-3 shadow-slate-400 shadow-md  sm:w-[22rem] sm:h-32 sm:left-[17rem] sm:bottom-20 xl:left-[20rem]">
+            <div class="text-[#7E7EAA] righteous-regular text-xs text-left">Such an amazing traniner and easily understand the entire 
+             syllabus, and the guidence will be super and good to the way of explaning.</div>
+            <img class="" src="./PUBLIC/container-6/Group 512877.svg" alt="icon">
+            <img class="absolute bottom-24 left-40 sm:left-36" src="./PUBLIC/container-6/th (1) 6.svg" alt="women-img">
+        </div>
+        <div class="card-3 relative flex flex-col items-start justify-center bg-white px-5 pt-12 pb-3 shadow-slate-400 shadow-md  sm:w-[22rem] sm:h-32 sm:bottom-80">
+            <div class="text-[#7E7EAA] righteous-regular text-xs text-left">Such an amazing traniner and easily understand the entire 
+             syllabus, and the guidence will be super and good to the way of explaning.</div>
+            <img class="" src="./PUBLIC/container-6/Group 512877.svg" alt="icon">
+            <img class="absolute bottom-24 left-40 sm:left-36" src="./PUBLIC/container-6/th (1) 6.svg" alt="women-img">
+        </div>
+        <div class="flex absolute bottom-1">
+            <img src="./PUBLIC/container-6/Back Arrow.svg" alt="">
+            <img src="./PUBLIC/container-6/Back Arrow (1).svg" alt="">
+            
+        </div>
+     </div>
+    </div>
+</div>
+
+<div class="group hover:shadow-md sm:hidden">
+    <button class="flex justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD] w-full py-5 righteous-regular text-lg">Classes</button>
+
+    <ul class="hidden group-hover:flex group-hover:flex-col bg-gradient-to-l from-[#477AE3] to-[#931BBD]  pt-3">
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Classroom courses</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Virtual classroom courses</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">E-learning courses</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Video Courses</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Offline Courses</li>
+    </ul>
+</div>
+
+<div class="group hover:shadow-md sm:hidden">
+    <button class="flex justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD] w-full py-5 righteous-regular text-lg">Community</button>
+
+    <ul class="hidden group-hover:flex group-hover:flex-col bg-gradient-to-l from-[#477AE3] to-[#931BBD]  pt-3">
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Learners</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Parteners</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Developers</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Transactions</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Blog</li>
+    </ul>
+</div>
+
+<div class="group hover:shadow-md sm:hidden">
+    <button class="flex justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD] w-full py-5 righteous-regular text-lg">Quick links</button>
+
+    <ul class="hidden group-hover:flex group-hover:flex-col bg-gradient-to-l from-[#477AE3] to-[#931BBD]  pt-3">
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Home</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Professional Education</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Courses</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Admissions</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Testimonial</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Programs</li>
+    </ul>
+</div>
+
+<div class="group hover:shadow-md sm:hidden">
+    <button class="flex justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD] w-full py-5 righteous-regular text-lg">More</button>
+
+    <ul class="hidden group-hover:flex group-hover:flex-col bg-gradient-to-l from-[#477AE3] to-[#931BBD]  pt-3">
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Press</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Investors</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Terms</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Privacy</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Help</li>
+        <li class="text-center righteous-regular text-sm align-middle  py-3 hover:shadow-lg hover:border border-black">Contact</li>
+    </ul>
+</div>
+
+<div class="group hover:shadow-md sm:hidden">
+    <button class="flex justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD] w-full py-5 righteous-regular text-lg">Connect</button>
+
+    <div class="hidden group-hover:flex group-hover:flex-col bg-gradient-to-l from-[#477AE3] to-[#931BBD]  pt-3 group-hover:">
+      <img class="mix-blend-multiply justify-center" src="./PUBLIC/footer/Askmeidentity 1.svg" alt="logo">
+      <p class="text-center righteous-regular text-xs   py-3 hover:shadow-lg hover:border border-black">Sri Jagannath Nivas,8-1-164/345/A/1,
+Pragati Colony, Mailardevpally, Nawab
+Saheb Kunta, Hyd, 500005</p>
+      </div>
+</div>
+
+<div class="hidden sm:flex flex-row justify-between py-14 bg-gradient-to-l from-[#477AE3] to-[#931BBD]">
+    <div class="w-[30%] space-y-2 pl-3 xl:pl-16">
+        <h1 class="righteous-regular lg:text-xl">Connect</h1>
+        <img class="w-40 mix-blend-multiply" src="./PUBLIC/footer/Askmeidentity 1.svg" alt="logo">
+        <p class="righteous-regular text-xs lg:pr-14 xl:pr-32">Sri Jagannath Nivas,8-1-164/345/A/1,
+           Pragati Colony, Mailardevpally, Nawab
+           Saheb Kunta, Hyd, 500005</p>
+    </div>
+    <div class="flex gap-x-8 pr-3 lg:gap-x-16 xl:gap-x-32 xl:pr-16">
+    <div class="space-y-2">
+        <h1 class="righteous-regular lg:text-xl">Classes</h1>
+        <p class="righteous-regular text-xs lg:text-sm">Classroom courses</p>
+        <p class="righteous-regular text-xs lg:text-sm">Virtual classroom courses</p>
+        <p class="righteous-regular text-xs lg:text-sm">E-learning courses</p>
+        <p class="righteous-regular text-xs lg:text-sm">Video Courses</p>
+        <p class="righteous-regular text-xs lg:text-sm">Offline Courses</p>
+    </div>
+    <div class="space-y-2">
+        <h1 class="righteous-regular lg:text-xl">Community</h1>
+        <p class="righteous-regular text-xs lg:text-sm">Learners</p>
+        <p class="righteous-regular text-xs lg:text-sm">Parteners</p>
+        <p class="righteous-regular text-xs lg:text-sm">Developers</p>
+        <p class="righteous-regular text-xs lg:text-sm">Transactions</p>
+        <p class="righteous-regular text-xs lg:text-sm">Blog</p>
+    </div>
+    <div class="space-y-2">
+        <h1 class="righteous-regular lg:text-xl">Quick links</h1>
+        <p class="righteous-regular text-xs lg:text-sm">Home</p>
+        <p class="righteous-regular text-xs lg:text-sm">Professional Education</p>
+        <p class="righteous-regular text-xs lg:text-sm">Courses</p>
+        <p class="righteous-regular text-xs lg:text-sm">Admissions</p>
+        <p class="righteous-regular text-xs lg:text-sm">Testimonial</p> 
+        <p class="righteous-regular text-xs lg:text-sm">Programs</p>        
+    </div>
+    <div class="space-y-2">
+        <h1 class="righteous-regular lg:text-xl">More</h1>
+        <p class="righteous-regular text-xs lg:text-sm">Press</p>
+        <p class="righteous-regular text-xs lg:text-sm">Investors</p>
+        <p class="righteous-regular text-xs lg:text-sm">Terms</p>
+        <p class="righteous-regular text-xs lg:text-sm">Privacy</p>
+        <p class="righteous-regular text-xs lg:text-sm">Help</p> 
+        <p class="righteous-regular text-xs lg:text-sm">Contact</p>        
+    </div> 
+    </div>       
+    </div>
+</div>
+
+<div class="flex gap-5 justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD]">
+ <div class="flex gap-5 justify-center bg-gradient-to-b from-[#0351AE40] to-[#A542C805] py-5 w-full">
+   <div class="w-14 h-14 rounded-full bg-white border border-blue-800 border-solid flex justify-center">
+   <img class="size-10 self-center" src="./PUBLIC/footer/Instagram.svg" alt="instagram logo">
+   </div>
+   <div class="w-14 h-14 rounded-full bg-white border border-blue-800 border-solid flex justify-center">
+   <img class="size-10 self-center" src="./PUBLIC/footer/WhatsApp.svg" alt="instagram logo">
+   </div>
+   <div class="w-14 h-14 rounded-full bg-white border border-blue-800 border-solid flex justify-center">
+   <img class="size-10 self-center" src="./PUBLIC/footer/Twitter.svg" alt="instagram logo">
+   </div>
+   <div class="w-14 h-14 rounded-full bg-white border border-blue-800 border-solid flex justify-center">
+   <img class="size-10 self-center" src="./PUBLIC/footer/LinkedIn.svg" alt="instagram logo">
+   </div>
+   <div class="w-14 h-14 rounded-full bg-white border border-blue-800 border-solid flex justify-center">
+   <img class="size-10 self-center" src="./PUBLIC/footer/YouTube.svg" alt="instagram logo">
+   </div>        
+ </div>
+</div>
+
+<div class="flex gap-5 justify-center bg-gradient-to-l from-[#477AE3] to-[#931BBD]" >
+  <div class="bg-[#001AFF60] w-full flex justify-center">Copyright @ 2023 askmeidentity. All Rights Reserved</div>  
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.righteous-regular{
+  font-family: "Righteous", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+.saira-regular{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+.saira-medium{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@600&display=swap');
+.saira-semibold{
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+.rowdies-light {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rowdies-bold {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
